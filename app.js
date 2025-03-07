@@ -16,7 +16,7 @@ function loadContent(language) {
             for (const orgName in selectedLangData) {
                 const org = selectedLangData[orgName];
                
-                const orgDiv = document.createElement("div");
+                const orgDiv = document.createElement("section");
                 orgDiv.classList.add("organization");  
 
                 const title = document.createElement("h2");
